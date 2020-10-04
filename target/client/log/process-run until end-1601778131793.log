@@ -1,0 +1,165 @@
+Process
+=======
+run until end
+
+Command Line
+============
+/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/GluonMobile
+
+Output
+======
+2020-10-03 22:22:10.809 GluonMobile[7137:3169722] Starting Gluon VM...
+Fatal error: javax.crypto.JceSecurity.getCodeBase(Class) is reached at runtime. This should not happen. The contents of JceSecurity.verificationResults are computed and cached at image build time. Try enabling all security services with --enable-all-security-services.
+
+JavaFrameAnchor dump:
+
+  No anchors
+  
+TopFrame info:
+
+  TotalFrameSize in CodeInfoTable 32
+  
+VMThreads info:
+
+  VMThread 00007fdaec5084b0  STATUS_IN_NATIVE  java.lang.Thread@0x115801028
+  VMThread 00007fdafc604db0  STATUS_IN_NATIVE  com.sun.glass.ui.InvokeLaterDispatcher@0x11410c3c0
+  VMThread 00007fdaec61d570  STATUS_IN_NATIVE  java.lang.Thread@0x114103e68
+  VMThread 00007fdafc705d20  STATUS_IN_JAVA (safepoints disabled)  java.lang.Thread@0x114002580
+  VMThread 00007fdaec61d870  STATUS_IN_NATIVE  java.lang.Thread@0x11367cff8
+  
+VM Thread State for current thread 00007fdafc705d20:
+
+  0 (8 bytes): com.oracle.svm.jni.JNIThreadLocalEnvironment.jniFunctions = (bytes) 
+    00007fdafc705d20: 0000000112c77820
+  
+  8 (32 bytes): com.oracle.svm.core.genscavenge.ThreadLocalAllocation.regularTLAB = (bytes) 
+    00007fdafc705d28: 0000000114100000 0000000114200000
+    00007fdafc705d38: 00000001141fdee8 0000000000000000
+    
+  
+  40 (8 bytes): com.oracle.svm.core.heap.NoAllocationVerifier.openVerifiers = (Object) null
+  48 (8 bytes): com.oracle.svm.core.jdk.IdentityHashCodeSupport.hashCodeGeneratorTL = (Object) java.util.SplittableRandom  0000000114104098
+  56 (8 bytes): com.oracle.svm.core.snippets.ExceptionUnwind.currentException = (Object) null
+  64 (8 bytes): com.oracle.svm.core.thread.JavaThreads.currentThread = (Object) java.lang.Thread  0000000114002580
+  72 (8 bytes): com.oracle.svm.core.thread.ThreadingSupportImpl.activeTimer = (Object) null
+  80 (8 bytes): com.oracle.svm.jni.JNIObjectHandles.handles = (Object) com.oracle.svm.core.handles.ThreadLocalHandles  0000000114108e90
+  88 (8 bytes): com.oracle.svm.jni.JNIThreadLocalPendingException.pendingException = (Object) null
+  96 (8 bytes): com.oracle.svm.jni.JNIThreadLocalPinnedObjects.pinnedObjectsListHead = (Object) null
+  104 (8 bytes): com.oracle.svm.jni.JNIThreadOwnedMonitors.ownedMonitors = (Object) null
+  112 (8 bytes): com.oracle.svm.core.genscavenge.ThreadLocalAllocation.freeList = (Word) 0  0000000000000000
+  120 (8 bytes): com.oracle.svm.core.graal.snippets.StackOverflowCheckImpl.stackBoundaryTL = (Word) 1  0000000000000001
+  128 (8 bytes): com.oracle.svm.core.stack.JavaFrameAnchors.lastAnchor = (Word) 0  0000000000000000
+  136 (8 bytes): com.oracle.svm.core.thread.VMThreads.IsolateTL = (Word) 4586737664  0000000111641000
+  144 (8 bytes): com.oracle.svm.core.thread.VMThreads.OSThreadHandleTL = (Word) 123145314131968  0000700000b46000
+  152 (8 bytes): com.oracle.svm.core.thread.VMThreads.OSThreadIdTL = (Word) 123145314131968  0000700000b46000
+  160 (8 bytes): com.oracle.svm.core.thread.VMThreads.nextTL = (Word) 140578245433456  00007fdaec61d870
+  168 (4 bytes): com.oracle.svm.core.graal.snippets.StackOverflowCheckImpl.yellowZoneStateTL = (int) -16843010  fefefefe
+  172 (4 bytes): com.oracle.svm.core.snippets.ImplicitExceptions.implicitExceptionsAreFatal = (int) 0  00000000
+  176 (4 bytes): com.oracle.svm.core.thread.Safepoint.safepointRequested = (int) 2147275836  7ffcd43c
+  180 (4 bytes): com.oracle.svm.core.thread.ThreadingSupportImpl.currentPauseDepth = (int) 0  00000000
+  184 (4 bytes): com.oracle.svm.core.thread.VMThreads$ActionOnTransitionToJavaSupport.actionTL = (int) 0  00000000
+  188 (4 bytes): com.oracle.svm.core.thread.VMThreads$StatusSupport.safepointsDisabledTL = (int) 1  00000001
+  192 (4 bytes): com.oracle.svm.core.thread.VMThreads$StatusSupport.statusTL = (int) 1  00000001
+  
+VMOperation dump:
+
+  No VMOperation in progress
+  
+Dump Counters:
+
+  
+Raw Stacktrace:
+
+  0000700000b45cd0: 000000011288a280 00000001141fdec8
+  0000700000b45ce0: 0000000111641000 000000010763aa81
+  0000700000b45cf0: 000000011410d780 00000001141fda68
+  0000700000b45d00: 0000003a00000001 0000000108b50f74
+  0000700000b45d10: 000000011410d780 00000001093a5a8a
+  0000700000b45d20: 00000001141c3658 00000001136a61c8
+  0000700000b45d30: 00000001136a6188 000000011290ecf0
+  0000700000b45d40: 000000011410d780 0000000108b508f9
+  
+Stacktrace Stage 0:
+
+  SP 0000700000b45cd0 IP 0000000107667d46  FrameSize 32
+  SP 0000700000b45cf0 IP 000000010763aa81  FrameSize 32
+  SP 0000700000b45d10 IP 0000000108b50f74  FrameSize 64
+  SP 0000700000b45d50 IP 0000000108b508f9  FrameSize 64
+  SP 0000700000b45d90 IP 0000000108b54351  FrameSize 48
+  SP 0000700000b45dc0 IP 000000010748a891  FrameSize 80
+  SP 0000700000b45e10 IP 000000010748a2a1  FrameSize 32
+  SP 0000700000b45e30 IP 00000001079a1438  FrameSize 160
+  SP 0000700000b45ed0 IP 000000010799d9ce  FrameSize 64
+  SP 0000700000b45f10 IP 000000010799d071  FrameSize 16
+  SP 0000700000b45f20 IP 00000001082bb1c0  FrameSize 16
+  SP 0000700000b45f30 IP 000000010765f847  FrameSize 48
+  SP 0000700000b45f60 IP 000000010761d2cf  FrameSize 96
+  
+Stacktrace Stage 1:
+
+  SP 0000700000b45cd0 IP 0000000107667d46  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45cf0 IP 000000010763aa81  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45d10 IP 0000000108b50f74  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45d50 IP 0000000108b508f9  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45d90 IP 0000000108b54351  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45dc0 IP 000000010748a891  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45e10 IP 000000010748a2a1  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45e30 IP 00000001079a1438  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45ed0 IP 000000010799d9ce  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45f10 IP 000000010799d071  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45f20 IP 00000001082bb1c0  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45f30 IP 000000010765f847  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  SP 0000700000b45f60 IP 000000010761d2cf  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+  
+Stacktrace Stage 2:
+
+  SP 0000700000b45cd0 IP 0000000107667d46  [image code] com.oracle.svm.core.jdk.VMErrorSubstitutions.shutdown(VMErrorSubstitutions.java:96)
+  SP 0000700000b45cd0 IP 0000000107667d46  [image code] com.oracle.svm.core.util.VMError.shouldNotReachHere(VMError.java:75)
+  SP 0000700000b45cf0 IP 000000010763aa81  [image code] com.oracle.svm.core.util.VMError.shouldNotReachHere(VMError.java:59)
+  SP 0000700000b45cf0 IP 000000010763aa81  [image code] com.oracle.svm.core.jdk.JceSecurityUtil.shouldNotReach(SecuritySubstitutions.java:387)
+  SP 0000700000b45d10 IP 0000000108b50f74  [image code] javax.crypto.JceSecurity.getCodeBase(JceSecurity.java:351)
+  SP 0000700000b45d10 IP 0000000108b50f74  [image code] javax.crypto.JceSecurity.getVerificationResult(JceSecurity.java:216)
+  SP 0000700000b45d50 IP 0000000108b508f9  [image code] javax.crypto.JceSecurity.getInstance(JceSecurity.java:141)
+  SP 0000700000b45d90 IP 0000000108b54351  [image code] javax.crypto.KeyGenerator.getInstance(KeyGenerator.java:326)
+  SP 0000700000b45dc0 IP 000000010748a891  [image code] com.gluonapplication.GluonApplication.securityTest(GluonApplication.java:85)
+  SP 0000700000b45e10 IP 000000010748a2a1  [image code] com.gluonapplication.GluonApplication.init(GluonApplication.java:45)
+  SP 0000700000b45e30 IP 00000001079a1438  [image code] com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:824)
+  SP 0000700000b45ed0 IP 000000010799d9ce  [image code] com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:195)
+  SP 0000700000b45f10 IP 000000010799d071  [image code] com.sun.javafx.application.LauncherImpl$$Lambda$6b52b8b751707d234c1e536df5c7bfccab052d36.run(Unknown Source)
+  SP 0000700000b45f20 IP 00000001082bb1c0  [image code] java.lang.Thread.run(Thread.java:834)
+  SP 0000700000b45f30 IP 000000010765f847  [image code] com.oracle.svm.core.thread.JavaThreads.threadStartRoutine(JavaThreads.java:517)
+  SP 0000700000b45f60 IP 000000010761d2cf  [image code] com.oracle.svm.core.posix.thread.PosixJavaThreads.pthreadStartRoutine(PosixJavaThreads.java:192)
+  SP 0000700000b45f60 IP 000000010761d2cf  [image code] com.oracle.svm.core.code.IsolateEnterStub.PosixJavaThreads_pthreadStartRoutine_e1f4a8c0039f8337338252cd8734f63a79b5e3df(IsolateEnterStub.java:0)
+  
+[Native image heap boundaries: 
+  ReadOnly Primitives: 0x111641008 .. 0x11287b978
+  ReadOnly References: 0x11287b9b0 .. 0x112c19b98
+  ReadOnly Relocatables: 0x112c75000 .. 0x11307c0a8
+  Writable Primitives: 0x11307d000 .. 0x113661f70
+  Writable References: 0x113661f88 .. 0x113f34348
+  Writable Huge: 0x0 .. 0x0
+  ReadOnly Huge: 0x0 .. 0x0]
+
+
+[Heap:
+  [Young generation: 
+    [Eden: 
+      [edenSpace:
+        aligned: 0/0 unaligned: 0/0]]
+    [Survivors: 
+      ]]
+  [Old generation: 
+    [oldFromSpace:
+      aligned: 0/0 unaligned: 0/0]
+    [oldToSpace:
+      aligned: 0/0 unaligned: 0/0]
+    ]
+  [Unused:
+    aligned: 0/0]]
+
+Fatal error: javax.crypto.JceSecurity.getCodeBase(Class) is reached at runtime. This should not happen. The contents of JceSecurity.verificationResults are computed and cached at image build time. Try enabling all security services with --enable-all-security-services.
+
+
+Result
+======
+result: 99

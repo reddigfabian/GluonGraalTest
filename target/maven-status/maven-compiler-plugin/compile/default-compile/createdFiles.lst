@@ -1,0 +1,5 @@
+com/gluonapplication/views/PrimaryPresenter.class
+com/gluonapplication/GluonApplication.class
+com/gluonapplication/views/AppViewManager.class
+com/gluonapplication/views/SecondaryPresenter.class
+com/gluonapplication/BouncyCastleFeature.class

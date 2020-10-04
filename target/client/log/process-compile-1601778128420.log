@@ -1,0 +1,36 @@
+Process
+=======
+compile
+
+Command Line
+============
+/Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+ExitAfterRelocatableImageWrite -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows --features=org.graalvm.home.HomeFinderFeature -H:TempDirectory=/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/reflectionconfig-x86_64-darwin.json -H:JNIConfigurationFiles=/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/jniconfig-x86_64-darwin.json -H:ResourceConfigurationFiles=/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/resourceconfig-x86_64-darwin.json -H:IncludeResourceBundles=com.gluonapplication.views.primary,com.gluonapplication.views.secondary,com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle -Dsvm.platform=org.graalvm.nativeimage.Platform$DARWIN_AMD64 -cp /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classpathJar11588846539132211167.jar --enable-all-security-services -J-Djava.security.properties=java.security.overrides --rerun-class-initialization-at-runtime=org.bouncycastle.crypto.prng.SP800SecureRandom --rerun-class-initialization-at-runtime=org.bouncycastle.jcajce.provider.drbg.DRBG$Default --rerun-class-initialization-at-runtime=org.bouncycastle.jcajce.provider.drbg.DRBG$NonceAndIV --rerun-class-initialization-at-runtime=org.bouncycastle.jcajce.provider.symmetric.AES$Mappings --rerun-class-initialization-at-runtime=org.bouncycastle.crypto.CryptoServicesRegistrar com.gluonapplication.GluonApplication
+
+Output
+======
+Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+[com.gluonapplication.gluonapplication:7090]    classlist:   3,170.50 ms,  0.94 GB
+[com.gluonapplication.gluonapplication:7090]        (cap):   1,355.62 ms,  0.94 GB
+[com.gluonapplication.gluonapplication:7090]        setup:   2,594.88 ms,  0.94 GB
+[com.gluonapplication.gluonapplication:7090]     (clinit):     758.43 ms,  4.37 GB
+[com.gluonapplication.gluonapplication:7090]   (typeflow):  11,838.80 ms,  4.37 GB
+[com.gluonapplication.gluonapplication:7090]    (objects):  16,798.96 ms,  4.37 GB
+[com.gluonapplication.gluonapplication:7090]   (features):   2,305.69 ms,  4.37 GB
+[com.gluonapplication.gluonapplication:7090]     analysis:  32,982.37 ms,  4.37 GB
+[com.gluonapplication.gluonapplication:7090]     universe:   1,366.31 ms,  4.74 GB
+[com.gluonapplication.gluonapplication:7090]      (parse):   2,416.77 ms,  4.74 GB
+[com.gluonapplication.gluonapplication:7090]     (inline):   4,604.25 ms,  6.52 GB
+[com.gluonapplication.gluonapplication:7090]    (compile):  21,734.52 ms,  6.73 GB
+[com.gluonapplication.gluonapplication:7090]      compile:  31,418.93 ms,  6.73 GB
+[com.gluonapplication.gluonapplication:7090]        image:   6,160.38 ms,  6.80 GB
+[com.gluonapplication.gluonapplication:7090]        write:     956.30 ms,  6.80 GB
+[com.gluonapplication.gluonapplication:7090]      [total]:  79,147.53 ms,  6.80 GB
+
+
+Result
+======
+result: 0

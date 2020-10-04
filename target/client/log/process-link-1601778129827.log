@@ -1,0 +1,15 @@
+Process
+=======
+link
+
+Command Line
+============
+gcc /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/GluonMobile/AppDelegate.o /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/GluonMobile/launcher.o /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/tmp/SVM-1601778052627/com.gluonapplication.gluonapplication.o -ljava -lnio -lzip -lnet -lprefs -lj2pkcs11 -lfdlibm -lsunec -lextnet -lffi -ljvm -llibchelper -ldarwin -lpthread -lz -ldl -lstdc++ -lobjc -Wl,-framework,Foundation -Wl,-framework,AppKit -Wl,-framework,ApplicationServices -Wl,-framework,OpenGL -Wl,-framework,QuartzCore -Wl,-framework,Security -Wl,-force_load,/Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/libglass.a -Wl,-force_load,/Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/libjavafx_font.a -Wl,-force_load,/Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/libjavafx_iio.a -Wl,-force_load,/Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/libprism_es2.a -o /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/GluonMobile -L/Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib -L/Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/lib/svm/clibraries/darwin-amd64 -L/Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/lib/static/darwin-amd64
+
+Output
+======
+
+
+Result
+======
+result: 0

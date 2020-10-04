@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: bcpkix-jdk15on:bcpkix-jdk15on:164">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/bcpkix-jdk15on/bcpkix-jdk15on/164/bcpkix-jdk15on-164.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/bcpkix-jdk15on/bcpkix-jdk15on/164/bcpkix-jdk15on-164-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/bcpkix-jdk15on/bcpkix-jdk15on/164/bcpkix-jdk15on-164-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

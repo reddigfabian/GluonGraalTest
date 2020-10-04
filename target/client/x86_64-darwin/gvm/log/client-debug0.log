@@ -1,0 +1,353 @@
+[Sat Oct 03 22:20:47 EDT 2020][INFO] ==================== COMPILE TASK ====================
+[Sat Oct 03 22:20:47 EDT 2020][FINE] PB Command for check version: /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin/java -version
+[Sat Oct 03 22:20:47 EDT 2020][FINE] Start process check version...
+[Sat Oct 03 22:20:47 EDT 2020][FINE] [SUB] openjdk version "11.0.8" 2020-07-14
+[Sat Oct 03 22:20:47 EDT 2020][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 20.2.0 (build 11.0.8+10-jvmci-20.2-b03)
+[Sat Oct 03 22:20:47 EDT 2020][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 20.2.0 (build 11.0.8+10-jvmci-20.2-b03, mixed mode, sharing)
+[Sat Oct 03 22:20:47 EDT 2020][FINE] Result for check version: 0
+[Sat Oct 03 22:20:47 EDT 2020][INFO] We will now compile your code for x86_64-apple-darwin. This may take some time.
+[Sat Oct 03 22:20:47 EDT 2020][FINE] Extracting native libs to: /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/lib
+[Sat Oct 03 22:20:47 EDT 2020][FINE] Looking for resource: /native/macosx/AppDelegate.m
+[Sat Oct 03 22:20:47 EDT 2020][FINE] Looking for resource: /native/macosx/launcher.c
+[Sat Oct 03 22:20:47 EDT 2020][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -I/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/GluonMobile AppDelegate.m launcher.c
+[Sat Oct 03 22:20:47 EDT 2020][FINE] Start process compile-additional-sources...
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Result for compile-additional-sources: 0
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/icon.png to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/icon.png
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/GluonApplication.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/GluonApplication.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/BouncyCastleFeature.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/BouncyCastleFeature.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/style.css to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/style.css
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/secondary.css to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/secondary.css
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/secondary.properties to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/secondary.properties
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/primary.properties to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/primary.properties
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/AppViewManager.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/AppViewManager.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/SecondaryPresenter.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/SecondaryPresenter.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/PrimaryPresenter.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/PrimaryPresenter.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/primary.fxml to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/primary.fxml
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/secondary.fxml to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/secondary.fxml
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/primary.css to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/com/gluonapplication/views/primary.css
+[Sat Oct 03 22:20:48 EDT 2020][FINE] PB Command for jar: /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin/jar cf /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/classes.jar -C /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465 .
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Start process jar...
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Result for jar: 0
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning for init build time files
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcpkix-jdk15on/bcpkix-jdk15on/164/bcpkix-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcprov-jdk15on/bcprov-jdk15on/164/bcprov-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/airhacks/afterburner.mfx/1.6.3/afterburner.mfx-1.6.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/charm-glisten/6.0.5/charm-glisten-6.0.5.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/glisten-afterburner/2.0.3/glisten-afterburner-2.0.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/statusbar/4.0.9/statusbar-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/util/4.0.9/util-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-base.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-controls.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-fxml.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/classes.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning for reflection files
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcpkix-jdk15on/bcpkix-jdk15on/164/bcpkix-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcprov-jdk15on/bcprov-jdk15on/164/bcprov-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/airhacks/afterburner.mfx/1.6.3/afterburner.mfx-1.6.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/charm-glisten/6.0.5/charm-glisten-6.0.5.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.m2/repository/com/gluonhq/charm-glisten/6.0.5/charm-glisten-6.0.5.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/glisten-afterburner/2.0.3/glisten-afterburner-2.0.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-darwin.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-darwin.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/statusbar/4.0.9/statusbar-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-darwin.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/util/4.0.9/util-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-base.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-base.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-controls.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-controls.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-fxml.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-fxml.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-darwin.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/classes.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning for JNI files
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcpkix-jdk15on/bcpkix-jdk15on/164/bcpkix-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcprov-jdk15on/bcprov-jdk15on/164/bcprov-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/airhacks/afterburner.mfx/1.6.3/afterburner.mfx-1.6.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/charm-glisten/6.0.5/charm-glisten-6.0.5.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/glisten-afterburner/2.0.3/glisten-afterburner-2.0.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/statusbar/4.0.9/statusbar-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/util/4.0.9/util-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-base.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-controls.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-fxml.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar::META-INF/substrate/config/jniconfig-x86_64-darwin.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar::META-INF/substrate/config/jniconfig.json
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/classes.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning for resource files
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcpkix-jdk15on/bcpkix-jdk15on/164/bcpkix-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcprov-jdk15on/bcprov-jdk15on/164/bcprov-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/airhacks/afterburner.mfx/1.6.3/afterburner.mfx-1.6.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/charm-glisten/6.0.5/charm-glisten-6.0.5.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/glisten-afterburner/2.0.3/glisten-afterburner-2.0.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/statusbar/4.0.9/statusbar-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/util/4.0.9/util-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-base.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-controls.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-fxml.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes10764210568128265465/classes.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/icon.png to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/icon.png
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/GluonApplication.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/GluonApplication.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/BouncyCastleFeature.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/BouncyCastleFeature.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/style.css to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/style.css
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/secondary.css to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/secondary.css
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/secondary.properties to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/secondary.properties
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/primary.properties to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/primary.properties
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/AppViewManager.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/AppViewManager.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/SecondaryPresenter.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/SecondaryPresenter.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/PrimaryPresenter.class to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/PrimaryPresenter.class
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/primary.fxml to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/primary.fxml
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/secondary.fxml to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/secondary.fxml
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Copied resource /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/classes/com/gluonapplication/views/primary.css to /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/com/gluonapplication/views/primary.css
+[Sat Oct 03 22:20:48 EDT 2020][FINE] PB Command for jar: /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin/jar cf /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/classes.jar -C /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817 .
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Start process jar...
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Result for jar: 0
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning for resource bundles
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcpkix-jdk15on/bcpkix-jdk15on/164/bcpkix-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/bcprov-jdk15on/bcprov-jdk15on/164/bcprov-jdk15on-164.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/airhacks/afterburner.mfx/1.6.3/afterburner.mfx-1.6.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/charm-glisten/6.0.5/charm-glisten-6.0.5.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/glisten-afterburner/2.0.3/glisten-afterburner-2.0.3.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/display/4.0.9/display-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/statusbar/4.0.9/statusbar-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9-desktop.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/com/gluonhq/attach/util/4.0.9/util-4.0.9.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-base.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-controls.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-controls.jar::META-INF/substrate/config/resourcebundles
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-fxml.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Adding classes from /Users/fabianreddig/.gluon/substrate/javafxStaticSdk/15-ea+gvm22/darwin-x86_64/sdk/lib/javafx-graphics.jar::META-INF/substrate/config/resourcebundles
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Scanning /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classes2207647240238675817/classes.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Pathing jar created at /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classpathJar11588846539132211167.jar
+[Sat Oct 03 22:20:48 EDT 2020][FINE] PB Command for compile: /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+ExitAfterRelocatableImageWrite -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows --features=org.graalvm.home.HomeFinderFeature -H:TempDirectory=/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/reflectionconfig-x86_64-darwin.json -H:JNIConfigurationFiles=/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/jniconfig-x86_64-darwin.json -H:ResourceConfigurationFiles=/Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/resourceconfig-x86_64-darwin.json -H:IncludeResourceBundles=com.gluonapplication.views.primary,com.gluonapplication.views.secondary,com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle -Dsvm.platform=org.graalvm.nativeimage.Platform$DARWIN_AMD64 -cp /var/folders/rl/lt0x17lx28v0smfyxrw7j11c0000gn/T/classpathJar11588846539132211167.jar --enable-all-security-services -J-Djava.security.properties=java.security.overrides --rerun-class-initialization-at-runtime=org.bouncycastle.crypto.prng.SP800SecureRandom --rerun-class-initialization-at-runtime=org.bouncycastle.jcajce.provider.drbg.DRBG$Default --rerun-class-initialization-at-runtime=org.bouncycastle.jcajce.provider.drbg.DRBG$NonceAndIV --rerun-class-initialization-at-runtime=org.bouncycastle.jcajce.provider.symmetric.AES$Mappings --rerun-class-initialization-at-runtime=org.bouncycastle.crypto.CryptoServicesRegistrar com.gluonapplication.GluonApplication
+[Sat Oct 03 22:20:48 EDT 2020][FINE] Start process compile...
+[Sat Oct 03 22:20:48 EDT 2020][INFO] [SUB] Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+[Sat Oct 03 22:20:48 EDT 2020][INFO] [SUB] Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+[Sat Oct 03 22:20:48 EDT 2020][INFO] [SUB] Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+[Sat Oct 03 22:20:48 EDT 2020][INFO] [SUB] Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+[Sat Oct 03 22:20:48 EDT 2020][INFO] [SUB] Warning: Using a deprecated option --rerun-class-initialization-at-runtime. Currently there is no replacement for this option. Try using --initialize-at-run-time or use the non-API option -H:ClassInitialization directly.
+[Sat Oct 03 22:20:52 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]    classlist:   3,170.50 ms,  0.94 GB
+[Sat Oct 03 22:20:54 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]        (cap):   1,355.62 ms,  0.94 GB
+[Sat Oct 03 22:20:54 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]        setup:   2,594.88 ms,  0.94 GB
+[Sat Oct 03 22:21:27 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]     (clinit):     758.43 ms,  4.37 GB
+[Sat Oct 03 22:21:27 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]   (typeflow):  11,838.80 ms,  4.37 GB
+[Sat Oct 03 22:21:27 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]    (objects):  16,798.96 ms,  4.37 GB
+[Sat Oct 03 22:21:27 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]   (features):   2,305.69 ms,  4.37 GB
+[Sat Oct 03 22:21:27 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]     analysis:  32,982.37 ms,  4.37 GB
+[Sat Oct 03 22:21:29 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]     universe:   1,366.31 ms,  4.74 GB
+[Sat Oct 03 22:21:31 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]      (parse):   2,416.77 ms,  4.74 GB
+[Sat Oct 03 22:21:36 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]     (inline):   4,604.25 ms,  6.52 GB
+[Sat Oct 03 22:21:58 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]    (compile):  21,734.52 ms,  6.73 GB
+[Sat Oct 03 22:22:00 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]      compile:  31,418.93 ms,  6.73 GB
+[Sat Oct 03 22:22:07 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]        image:   6,160.38 ms,  6.80 GB
+[Sat Oct 03 22:22:08 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]        write:     956.30 ms,  6.80 GB
+[Sat Oct 03 22:22:08 EDT 2020][INFO] [SUB] [com.gluonapplication.gluonapplication:7090]      [total]:  79,147.53 ms,  6.80 GB
+[Sat Oct 03 22:22:08 EDT 2020][FINE] Result for compile: 0
+[Sat Oct 03 22:22:08 EDT 2020][FINE] Logging process [compile] to file: /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/log/process-compile-1601778128420.log
+[Sat Oct 03 22:22:08 EDT 2020][FINE] Checking execution permissions for /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0
+[Sat Oct 03 22:22:08 EDT 2020][FINE] PB Command for check xattr: xattr /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0
+[Sat Oct 03 22:22:08 EDT 2020][FINE] Start process check xattr...
+[Sat Oct 03 22:22:08 EDT 2020][FINE] Result for check xattr: 0
+[Sat Oct 03 22:22:08 EDT 2020][FINE] PB Command for java-version: /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin/java --version
+[Sat Oct 03 22:22:08 EDT 2020][FINE] Start process java-version...
+[Sat Oct 03 22:22:08 EDT 2020][FINE] [SUB] openjdk 11.0.8 2020-07-14
+[Sat Oct 03 22:22:08 EDT 2020][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 20.2.0 (build 11.0.8+10-jvmci-20.2-b03)
+[Sat Oct 03 22:22:08 EDT 2020][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 20.2.0 (build 11.0.8+10-jvmci-20.2-b03, mixed mode, sharing)
+[Sat Oct 03 22:22:08 EDT 2020][FINE] Result for java-version: 0
+[Sat Oct 03 22:22:10 EDT 2020][INFO] ==================== RUN TASK ====================
+[Sat Oct 03 22:22:10 EDT 2020][FINE] PB Command for run until end: /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/GluonMobile
+[Sat Oct 03 22:22:10 EDT 2020][FINE] Start process run until end...
+[Sat Oct 03 22:22:10 EDT 2020][FINE] [SUB] 2020-10-03 22:22:10.809 GluonMobile[7137:3169722] Starting Gluon VM...
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] Fatal error: javax.crypto.JceSecurity.getCodeBase(Class) is reached at runtime. This should not happen. The contents of JceSecurity.verificationResults are computed and cached at image build time. Try enabling all security services with --enable-all-security-services.
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] JavaFrameAnchor dump:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   No anchors
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] TopFrame info:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   TotalFrameSize in CodeInfoTable 32
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] VMThreads info:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   VMThread 00007fdaec5084b0  STATUS_IN_NATIVE  java.lang.Thread@0x115801028
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   VMThread 00007fdafc604db0  STATUS_IN_NATIVE  com.sun.glass.ui.InvokeLaterDispatcher@0x11410c3c0
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   VMThread 00007fdaec61d570  STATUS_IN_NATIVE  java.lang.Thread@0x114103e68
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   VMThread 00007fdafc705d20  STATUS_IN_JAVA (safepoints disabled)  java.lang.Thread@0x114002580
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   VMThread 00007fdaec61d870  STATUS_IN_NATIVE  java.lang.Thread@0x11367cff8
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] VM Thread State for current thread 00007fdafc705d20:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0 (8 bytes): com.oracle.svm.jni.JNIThreadLocalEnvironment.jniFunctions = (bytes) 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     00007fdafc705d20: 0000000112c77820
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   8 (32 bytes): com.oracle.svm.core.genscavenge.ThreadLocalAllocation.regularTLAB = (bytes) 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     00007fdafc705d28: 0000000114100000 0000000114200000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     00007fdafc705d38: 00000001141fdee8 0000000000000000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   40 (8 bytes): com.oracle.svm.core.heap.NoAllocationVerifier.openVerifiers = (Object) null
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   48 (8 bytes): com.oracle.svm.core.jdk.IdentityHashCodeSupport.hashCodeGeneratorTL = (Object) java.util.SplittableRandom  0000000114104098
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   56 (8 bytes): com.oracle.svm.core.snippets.ExceptionUnwind.currentException = (Object) null
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   64 (8 bytes): com.oracle.svm.core.thread.JavaThreads.currentThread = (Object) java.lang.Thread  0000000114002580
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   72 (8 bytes): com.oracle.svm.core.thread.ThreadingSupportImpl.activeTimer = (Object) null
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   80 (8 bytes): com.oracle.svm.jni.JNIObjectHandles.handles = (Object) com.oracle.svm.core.handles.ThreadLocalHandles  0000000114108e90
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   88 (8 bytes): com.oracle.svm.jni.JNIThreadLocalPendingException.pendingException = (Object) null
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   96 (8 bytes): com.oracle.svm.jni.JNIThreadLocalPinnedObjects.pinnedObjectsListHead = (Object) null
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   104 (8 bytes): com.oracle.svm.jni.JNIThreadOwnedMonitors.ownedMonitors = (Object) null
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   112 (8 bytes): com.oracle.svm.core.genscavenge.ThreadLocalAllocation.freeList = (Word) 0  0000000000000000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   120 (8 bytes): com.oracle.svm.core.graal.snippets.StackOverflowCheckImpl.stackBoundaryTL = (Word) 1  0000000000000001
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   128 (8 bytes): com.oracle.svm.core.stack.JavaFrameAnchors.lastAnchor = (Word) 0  0000000000000000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   136 (8 bytes): com.oracle.svm.core.thread.VMThreads.IsolateTL = (Word) 4586737664  0000000111641000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   144 (8 bytes): com.oracle.svm.core.thread.VMThreads.OSThreadHandleTL = (Word) 123145314131968  0000700000b46000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   152 (8 bytes): com.oracle.svm.core.thread.VMThreads.OSThreadIdTL = (Word) 123145314131968  0000700000b46000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   160 (8 bytes): com.oracle.svm.core.thread.VMThreads.nextTL = (Word) 140578245433456  00007fdaec61d870
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   168 (4 bytes): com.oracle.svm.core.graal.snippets.StackOverflowCheckImpl.yellowZoneStateTL = (int) -16843010  fefefefe
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   172 (4 bytes): com.oracle.svm.core.snippets.ImplicitExceptions.implicitExceptionsAreFatal = (int) 0  00000000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   176 (4 bytes): com.oracle.svm.core.thread.Safepoint.safepointRequested = (int) 2147275836  7ffcd43c
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   180 (4 bytes): com.oracle.svm.core.thread.ThreadingSupportImpl.currentPauseDepth = (int) 0  00000000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   184 (4 bytes): com.oracle.svm.core.thread.VMThreads$ActionOnTransitionToJavaSupport.actionTL = (int) 0  00000000
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   188 (4 bytes): com.oracle.svm.core.thread.VMThreads$StatusSupport.safepointsDisabledTL = (int) 1  00000001
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   192 (4 bytes): com.oracle.svm.core.thread.VMThreads$StatusSupport.statusTL = (int) 1  00000001
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] VMOperation dump:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   No VMOperation in progress
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] Dump Counters:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] Raw Stacktrace:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0000700000b45cd0: 000000011288a280 00000001141fdec8
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0000700000b45ce0: 0000000111641000 000000010763aa81
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0000700000b45cf0: 000000011410d780 00000001141fda68
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0000700000b45d00: 0000003a00000001 0000000108b50f74
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0000700000b45d10: 000000011410d780 00000001093a5a8a
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0000700000b45d20: 00000001141c3658 00000001136a61c8
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0000700000b45d30: 00000001136a6188 000000011290ecf0
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   0000700000b45d40: 000000011410d780 0000000108b508f9
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] Stacktrace Stage 0:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45cd0 IP 0000000107667d46  FrameSize 32
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45cf0 IP 000000010763aa81  FrameSize 32
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d10 IP 0000000108b50f74  FrameSize 64
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d50 IP 0000000108b508f9  FrameSize 64
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d90 IP 0000000108b54351  FrameSize 48
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45dc0 IP 000000010748a891  FrameSize 80
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45e10 IP 000000010748a2a1  FrameSize 32
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45e30 IP 00000001079a1438  FrameSize 160
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45ed0 IP 000000010799d9ce  FrameSize 64
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f10 IP 000000010799d071  FrameSize 16
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f20 IP 00000001082bb1c0  FrameSize 16
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f30 IP 000000010765f847  FrameSize 48
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f60 IP 000000010761d2cf  FrameSize 96
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] Stacktrace Stage 1:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45cd0 IP 0000000107667d46  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45cf0 IP 000000010763aa81  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d10 IP 0000000108b50f74  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d50 IP 0000000108b508f9  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d90 IP 0000000108b54351  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45dc0 IP 000000010748a891  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45e10 IP 000000010748a2a1  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45e30 IP 00000001079a1438  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45ed0 IP 000000010799d9ce  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f10 IP 000000010799d071  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f20 IP 00000001082bb1c0  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f30 IP 000000010765f847  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f60 IP 000000010761d2cf  com.oracle.svm.core.code.CodeInfo@0x11365ad68 name = image code
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] Stacktrace Stage 2:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45cd0 IP 0000000107667d46  [image code] com.oracle.svm.core.jdk.VMErrorSubstitutions.shutdown(VMErrorSubstitutions.java:96)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45cd0 IP 0000000107667d46  [image code] com.oracle.svm.core.util.VMError.shouldNotReachHere(VMError.java:75)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45cf0 IP 000000010763aa81  [image code] com.oracle.svm.core.util.VMError.shouldNotReachHere(VMError.java:59)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45cf0 IP 000000010763aa81  [image code] com.oracle.svm.core.jdk.JceSecurityUtil.shouldNotReach(SecuritySubstitutions.java:387)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d10 IP 0000000108b50f74  [image code] javax.crypto.JceSecurity.getCodeBase(JceSecurity.java:351)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d10 IP 0000000108b50f74  [image code] javax.crypto.JceSecurity.getVerificationResult(JceSecurity.java:216)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d50 IP 0000000108b508f9  [image code] javax.crypto.JceSecurity.getInstance(JceSecurity.java:141)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45d90 IP 0000000108b54351  [image code] javax.crypto.KeyGenerator.getInstance(KeyGenerator.java:326)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45dc0 IP 000000010748a891  [image code] com.gluonapplication.GluonApplication.securityTest(GluonApplication.java:85)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45e10 IP 000000010748a2a1  [image code] com.gluonapplication.GluonApplication.init(GluonApplication.java:45)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45e30 IP 00000001079a1438  [image code] com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:824)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45ed0 IP 000000010799d9ce  [image code] com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:195)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f10 IP 000000010799d071  [image code] com.sun.javafx.application.LauncherImpl$$Lambda$6b52b8b751707d234c1e536df5c7bfccab052d36.run(Unknown Source)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f20 IP 00000001082bb1c0  [image code] java.lang.Thread.run(Thread.java:834)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f30 IP 000000010765f847  [image code] com.oracle.svm.core.thread.JavaThreads.threadStartRoutine(JavaThreads.java:517)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f60 IP 000000010761d2cf  [image code] com.oracle.svm.core.posix.thread.PosixJavaThreads.pthreadStartRoutine(PosixJavaThreads.java:192)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   SP 0000700000b45f60 IP 000000010761d2cf  [image code] com.oracle.svm.core.code.IsolateEnterStub.PosixJavaThreads_pthreadStartRoutine_e1f4a8c0039f8337338252cd8734f63a79b5e3df(IsolateEnterStub.java:0)
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] [Native image heap boundaries: 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   ReadOnly Primitives: 0x111641008 .. 0x11287b978
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   ReadOnly References: 0x11287b9b0 .. 0x112c19b98
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   ReadOnly Relocatables: 0x112c75000 .. 0x11307c0a8
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   Writable Primitives: 0x11307d000 .. 0x113661f70
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   Writable References: 0x113661f88 .. 0x113f34348
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   Writable Huge: 0x0 .. 0x0
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   ReadOnly Huge: 0x0 .. 0x0]
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] [Heap:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   [Young generation: 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     [Eden: 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]       [edenSpace:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]         aligned: 0/0 unaligned: 0/0]]
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     [Survivors: 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]       ]]
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   [Old generation: 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     [oldFromSpace:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]       aligned: 0/0 unaligned: 0/0]
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     [oldToSpace:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]       aligned: 0/0 unaligned: 0/0]
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     ]
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]   [Unused:
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB]     aligned: 0/0]]
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] 
+[Sat Oct 03 22:22:11 EDT 2020][FINE] [SUB] Fatal error: javax.crypto.JceSecurity.getCodeBase(Class) is reached at runtime. This should not happen. The contents of JceSecurity.verificationResults are computed and cached at image build time. Try enabling all security services with --enable-all-security-services.
+[Sat Oct 03 22:22:11 EDT 2020][FINE] Result for run until end: 99
+[Sat Oct 03 22:22:11 EDT 2020][SEVERE] Process run until end failed with result: 99
+Check the log files under /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/x86_64-darwin/gvm/log
+And please check https://docs.gluonhq.com/client/ for more information.
+[Sat Oct 03 22:22:11 EDT 2020][INFO] Logging process [run until end] to file: /Users/fabianreddig/IdeaProjects/GluonMobile-MultipleViewProjectwithGlistenAfterburner/target/client/log/process-run until end-1601778131793.log
